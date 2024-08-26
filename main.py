@@ -2,7 +2,7 @@ import cv2
 import dlib
 import numpy as np
 
-# Load the facial landmark detection model
+# Load the facial landmark detection models
 predictor = dlib.shape_predictor('shape_predictor_68_face_landmarks.dat')
 
 # Load the videos
